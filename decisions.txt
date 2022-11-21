@@ -1,0 +1,4 @@
+# Architecture
+
+The contract exposes one function to the user `Deposit()` which conducts an ERC20 transfer, and automatically increments slab by calling an internal function `_changeSlabs()`. 
+The user can also query the current slab of the ERC20 tokenAddress by calling `tokenCurrentSlab(tokenAddress)`

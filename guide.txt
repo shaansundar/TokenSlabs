@@ -1,0 +1,14 @@
+# Setup
+
+- Run `npm i` to install dependencies
+- Run `npx hardhat compile` to compile
+- Run `npx hardhat test` to test the contracts
+
+# Usage
+
+- Run `npx hardhat run scripts/deploy.ts --network Sepolia` to deploy the contract on Sepolia testnet. Do not forget to clone the .env.example and fill in the values
+
+# Features
+
+- Automated incrementation of slabs by using Deposit function in the contract
+- Enums used for preventing overflows and unexpected slab additions
